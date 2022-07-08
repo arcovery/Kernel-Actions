@@ -11,7 +11,7 @@ echo "AnyKernel3 Repo"
 echo
 git clone --depth=1 https://github.com/osm0sis/AnyKernel3.git
 
-echo
+echo 
 echo "Cloning Kernel Repo"
 echo
 git clone --depth=1 https://github.com/arcovery/android_kernel_xiaomi_sm8150.git dev
