@@ -14,7 +14,7 @@ git clone --depth=1 https://github.com/osm0sis/AnyKernel3.git
 echo
 echo "Cloning Kernel Repo"
 echo
-git clone --depth=1 https://github.com/LineageOS/android_kernel_xiaomi_surya.git kernel
+git clone --depth=1 https://github.com/arcovery/android_kernel_xiaomi_sm8150.git dev
 
 echo
 echo "Setting up env"
@@ -57,7 +57,7 @@ mkdir -p out
 echo
 echo "Set DEFCONFIG"
 echo 
-make CC=clang O=out surya-docker_defconfig
+make CC=clang O=out raphael_defconfig
 
 echo
 echo "Build The Good Stuff"
